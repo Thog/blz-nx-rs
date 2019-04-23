@@ -1,0 +1,16 @@
+[package]
+name = "blz-nx"
+version = "0.1.0"
+authors = ["Thog <me@thog.eu>"]
+edition = "2018"
+
+[dependencies]
+byteorder = { version = "1.0", default-features = false }
+
+[[bin]]
+name = "blz-nx-decompress"
+path = "src/bin/blz-decompress.rs"
+
+[[bin]]
+name = "blz-nx-compress"
+path = "src/bin/blz-compress.rs"
