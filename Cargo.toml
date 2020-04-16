@@ -1,8 +1,12 @@
 [package]
 name = "blz-nx"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Thog <me@thog.eu>"]
 edition = "2018"
+description = "crate handling BLZ compression for the Nintendo Switch"
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/Thog/blz-nx-rs"
+repository = "https://github.com/Thog/blz-nx-rs"
 
 [dependencies]
 byteorder = { version = "1.0", default-features = false }
