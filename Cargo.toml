@@ -1,6 +1,6 @@
 [package]
 name = "blz-nx"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Thog <me@thog.eu>"]
 edition = "2018"
 
